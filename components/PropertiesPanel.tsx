@@ -747,7 +747,7 @@ const TableList: React.FC<IProps> = (props: any) => {
           <p>执行监听</p>
         </Panel> : null}
         {!isGateway && rootElement ? <Panel header='权限设置' key='7'>
-          <p>3</p>
+          <p>权限设置</p>
         </Panel> : null}
         {isUserTask ? <Panel header='任务监听' key='8'>
           <p>3</p>
